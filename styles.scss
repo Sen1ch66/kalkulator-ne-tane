@@ -1,0 +1,63 @@
+$fortext: rgb(9, 167, 27);
+$shadowfortext: 10px 5px 5px rgba(6, 97, 9, 0.897);
+$forbackground: rgb(11, 32, 1);
+@mixin flexcenter(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    @include flexcenter();
+}
+.kalkulator{
+    @include flexcenter();
+    flex-direction: column;
+    gap: 30px;
+    color: $fortext;
+    text-shadow: $shadowfortext;
+    border: 3px solid $fortext;
+    box-shadow: 5px 0 8px rgba(6, 97, 9, 0.897);
+    padding: 20px 30px;
+    h1{
+        font-size: 50px;
+    }
+    .vvid{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 20px;
+        label{
+            font-size: 20px;
+            font-weight: 500;
+            input{
+                margin-left: 5px;
+                outline: none;
+                background-color: $forbackground;
+                border: 2px solid $fortext;
+                color: $fortext;
+                padding: 10px 20px;
+                font-size: 30px;
+            }
+            .last-input{
+                margin-left: 58px;
+            }
+        }
+    }
+    &-btn{
+        overflow: hidden;
+        padding: 15px 50px;
+        background-color: $forbackground;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+        color: $fortext;
+    }
+}
+

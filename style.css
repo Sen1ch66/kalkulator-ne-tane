@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.kalkulator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  color: rgb(9, 167, 27);
+  text-shadow: 10px 5px 5px rgba(6, 97, 9, 0.897);
+  border: 3px solid rgb(9, 167, 27);
+  box-shadow: 5px 0 8px rgba(6, 97, 9, 0.897);
+  padding: 20px 30px;
+}
+.kalkulator h1 {
+  font-size: 50px;
+}
+.kalkulator .vvid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.kalkulator .vvid label {
+  font-size: 20px;
+  font-weight: 500;
+}
+.kalkulator .vvid label input {
+  margin-left: 5px;
+  outline: none;
+  background-color: rgb(11, 32, 1);
+  border: 2px solid rgb(9, 167, 27);
+  color: rgb(9, 167, 27);
+  padding: 10px 20px;
+  font-size: 30px;
+}
+.kalkulator .vvid label .last-input {
+  margin-left: 58px;
+}
+.kalkulator-btn {
+  overflow: hidden;
+  padding: 15px 50px;
+  background-color: rgb(11, 32, 1);
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgb(9, 167, 27);
+}
+
+/*# sourceMappingURL=style.css.map */
