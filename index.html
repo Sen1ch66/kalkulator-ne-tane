@@ -12,19 +12,19 @@
     <div class="kalkulator">
         <h1>топ Калькулятор</h1>
         <div class="vvid">
-            <label for="1num">Введіть 1 число<input type="text"></label>
-            <label for="2num">Введіть 2 число<input type="text"></label>
-            <label for="result">Результат<input type="text" readonly class="last-input"></label>
+            <label for="1num">Введіть 1 число<input type="text" name="1num"></label>
+            <label for="2num">Введіть 2 число<input type="text" name="2num"></label>
+            <label for="result">Результат<input type="text" readonly class="last-input" name="result"></label>
         </div>
-        <select id="">
-            <option value="">+</option>
-            <option value="">-</option>
-            <option value="">*</option>
-            <option value="">/</option>
+        <select id="dija">
+            <option value="plus">+</option>
+            <option value="minus">-</option>
+            <option value="pomnozyty">*</option>
+            <option value="podilyty">/</option>
         </select>
         <button class="kalkulator-btn">Результат</button>
-        <script src="./script.js"></script>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>

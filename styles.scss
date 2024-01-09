@@ -50,6 +50,13 @@ body{
             }
         }
     }
+    #dija{
+        padding: 10px;
+        background-color: $forbackground;
+        color: $fortext;
+        border: 2px solid $fortext;
+        width: 100px;
+    }
     &-btn{
         overflow: hidden;
         padding: 15px 50px;

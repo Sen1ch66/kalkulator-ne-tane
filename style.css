@@ -49,6 +49,13 @@ body {
 .kalkulator .vvid label .last-input {
   margin-left: 58px;
 }
+.kalkulator #dija {
+  padding: 10px;
+  background-color: rgb(11, 32, 1);
+  color: rgb(9, 167, 27);
+  border: 2px solid rgb(9, 167, 27);
+  width: 100px;
+}
 .kalkulator-btn {
   overflow: hidden;
   padding: 15px 50px;
