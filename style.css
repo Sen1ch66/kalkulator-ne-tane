@@ -7,7 +7,7 @@
 
 body {
   height: 100vh;
-  background-color: black;
+  background-image: url(./matryca.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,6 +23,7 @@ body {
   text-shadow: 10px 5px 5px rgba(6, 97, 9, 0.897);
   border: 3px solid rgb(9, 167, 27);
   box-shadow: 5px 0 8px rgba(6, 97, 9, 0.897);
+  background-color: black;
   padding: 20px 30px;
 }
 .kalkulator h1 {
@@ -35,7 +36,7 @@ body {
 }
 .kalkulator .vvid label {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .kalkulator .vvid label input {
   margin-left: 5px;
@@ -45,25 +46,31 @@ body {
   color: rgb(9, 167, 27);
   padding: 10px 20px;
   font-size: 30px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 5px rgba(6, 97, 9, 0.897);
 }
 .kalkulator .vvid label .last-input {
   margin-left: 58px;
 }
 .kalkulator #dija {
-  padding: 10px;
+  padding: 10px 20px;
   background-color: rgb(11, 32, 1);
   color: rgb(9, 167, 27);
   border: 2px solid rgb(9, 167, 27);
   width: 100px;
+  font-size: 25px;
+  box-shadow: 10px 5px 5px rgba(6, 97, 9, 0.897);
 }
 .kalkulator-btn {
   overflow: hidden;
   padding: 15px 50px;
   background-color: rgb(11, 32, 1);
-  border: none;
+  border: 1px solid rgb(9, 167, 27);
+  border-radius: 15px 5px;
   cursor: pointer;
   font-size: 20px;
   color: rgb(9, 167, 27);
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
