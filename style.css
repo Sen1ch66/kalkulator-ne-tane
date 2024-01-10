@@ -61,7 +61,12 @@ body {
   font-size: 25px;
   box-shadow: 10px 5px 5px rgba(6, 97, 9, 0.897);
 }
-.kalkulator-btn {
+.kalkulator-btns {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 50px;
+}
+.kalkulator-btns-btn, .kalkulator-btns-clear {
   overflow: hidden;
   padding: 15px 50px;
   background-color: rgb(11, 32, 1);

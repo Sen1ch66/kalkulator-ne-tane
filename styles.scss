@@ -62,16 +62,21 @@ body{
         font-size: 25px;
         box-shadow: $shadowfortext;
     }
-    &-btn{
-        overflow: hidden;
-        padding: 15px 50px;
-        background-color: $forbackground;
-        border: 1px solid $fortext;
-        border-radius: 15px 5px;
-        cursor: pointer;
-        font-size: 20px;
-        color: $fortext;
-        font-weight: 600;
+    &-btns{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 50px;
+        &-btn, &-clear{
+            overflow: hidden;
+            padding: 15px 50px;
+            background-color: $forbackground;
+            border: 1px solid $fortext;
+            border-radius: 15px 5px;
+            cursor: pointer;
+            font-size: 20px;
+            color: $fortext;
+            font-weight: 600;
+        }
     }
 }
 
